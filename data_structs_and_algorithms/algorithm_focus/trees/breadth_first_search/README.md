@@ -1,4 +1,4 @@
-# breadth first search
+# Breadth First Search
 `trees` `search`
 
 breadth first search is a tree searching algorithm. 

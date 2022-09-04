@@ -24,6 +24,10 @@ public class Graph<T> {
         }
     }
 
+    public boolean hasEdgeAt(T key){
+        return map.containsKey(key) && !map.get(key).isEmpty() ? true : false;
+    }
+
     // This function adds the edge
     // between source to destination
     public void addEdge(T source,
@@ -131,8 +135,52 @@ public class Graph<T> {
                 System.out.println(curr);
             }
         }
+    }
 
+    public void dfsPostOrder(T first){
+        System.out.println("dfs: post order traversal:");
+        List<T> visited = new ArrayList<>();
+        LinkedList<T> stack = new LinkedList<>();
 
+        T current;
+        stack.push(first);
+        while (!stack.isEmpty()){
+            current = stack.getFirst();
+            if (!visited.contains(current) && this.hasEdgeAt(current)){
+                List<T> childrenTemp2 = this.getEdgesAt(current);
+                for (T node :
+                        childrenTemp2) {
+                    stack.push(node);
+                }
+                visited.add(current);
+            }else {
+                System.out.print(stack.pop() + " ");
+            }
+        }
+        System.out.println();
+    }
+    public void dfsPreOrder(T first){
+        System.out.println("dfs: pre order traversal:");
+        List<T> visited = new ArrayList<>();
+        LinkedList<T> stack = new LinkedList<>();
+
+        T current;
+        stack.push(first);
+        while (!stack.isEmpty()){
+            current = stack.getFirst();
+            if (!visited.contains(current)){
+                System.out.print(stack.pop() + " ");
+                if (this.hasEdgeAt(current)){
+                    List<T> childrenTemp2 = this.getEdgesAt(current);
+                    for (T node :
+                            childrenTemp2) {
+                        stack.push(node);
+                    }
+                }
+                visited.add(current);
+            }
+        }
+        System.out.println();
     }
 
     // Prints the adjancency list of each vertex.
