@@ -12,7 +12,8 @@ LeetCode questions are grouped by data structure or by algorithm.
 ## Data structures
 - [ ] Arrays
 - [ ] Lists
-- [ ] Hash tables
+- [x] Hash maps & tables
+  - description ☞ [see here](data_structs_and_algorithms/data_structs_implementations/hash_map/README.md)
 - [x] Trees
   - implementation ☞ [see here](data_structs_and_algorithms/data_structs_implementations/tree/TreeNode.java)
   - description ☞ [see here](data_structs_and_algorithms/data_structs_implementations/tree/README.md)
