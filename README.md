@@ -33,3 +33,9 @@ LeetCode questions are grouped by data structure or by algorithm.
   - [x] Breadth-first search ☞ [see here](data_structs_and_algorithms/algorithm_focus/trees/breadth_first_search)
   - [x] Depth-first search ☞ [see here](data_structs_and_algorithms/algorithm_focus/trees/depth_first_search)
   - [ ] Binary Search
+  - [ ] Dijkstra algorithm
+
+## LeetCode
+### C++
+#### easy
+- two sum ☞ [see here](leetcode/C++/easy/two%20sum)
