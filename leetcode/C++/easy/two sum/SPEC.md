@@ -1,5 +1,5 @@
 # Two sum
-`easy` `arrays`</br>
+`easy` `vectors` `maps`</br>
 
 [https://leetcode.com/problems/two-sum/](https://leetcode.com/problems/two-sum/)
 
