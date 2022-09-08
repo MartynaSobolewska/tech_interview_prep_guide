@@ -10,12 +10,14 @@ class Solution {
             for (int i : nums){
                 printf("i = %d\n", i);
                 map.insert({i, count});
+                printf("[%d, %d]\n", i, count);
                 int pair = target - i;
-                if (map.count(pair)){
-                    printf("[%d, %d]\n", i, pair);
-                    vector<int> result {i, pair};
+                if (map.count(pair) && map[pair] != count){
+                    printf("OUT: [%d, %d]\n", map[pair], count);
+                    vector<int> result {map[pair], count};
                     return result;
                 }
+                count++;
             }
             vector<int> vect {};
             return vect;
@@ -24,6 +26,6 @@ class Solution {
 
 int main(int argc, char **argv){
     Solution s;
-    vector<int> vect { 10, 20, 30, 2, 1, 8, 4 };
-    s.twoSum(vect, 24);
+    vector<int> vect { 3, 2, 4 };
+    s.twoSum(vect, 6);
 }
