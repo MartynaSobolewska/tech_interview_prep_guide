@@ -9,6 +9,10 @@ LeetCode questions are grouped by data structure or by algorithm.
 ## helpful concepts 
 - [x] big O complexity analysis ☞ [how to O](concepts/bigO/README.md)
 
+## language cheetsheets
+- [x] C++ ☞ [data structures](cheatsheets/C++/DATA_STRUCTS.md)
+- [x] C++ ☞ [classes](cheatsheets/C++/CLASSES.md)
+
 ## Data structures
 - [ ] Arrays
 - [ ] Lists 
