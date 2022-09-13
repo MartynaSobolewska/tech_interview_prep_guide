@@ -48,4 +48,5 @@ LeetCode questions are grouped by data structure or by algorithm.
 - longest substring without repeating characters ☞ [see here](leetcode/C++/medium/longest_substring)
 ### Java
 #### easy
-- check if palindrome 
+- check if palindrome ☞ [see here](leetcode/Java/easy/palindrome)
+- biggest adjacent product ☞ [see here](leetcode/Java/easy/adjacentProduct)
