@@ -46,3 +46,6 @@ LeetCode questions are grouped by data structure or by algorithm.
 #### medium
 - add two numbers ☞ [see here](leetcode/C++/medium/add_two_numbers)
 - longest substring without repeating characters ☞ [see here](leetcode/C++/medium/longest_substring)
+### Java
+#### easy
+- check if palindrome 
