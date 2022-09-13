@@ -49,4 +49,5 @@ LeetCode questions are grouped by data structure or by algorithm.
 ### Java
 #### easy
 - check if palindrome ☞ [see here](leetcode/Java/easy/palindrome)
-- biggest adjacent product ☞ [see here](leetcode/Java/easy/adjacentProduct)
+- largest adjacent product ☞ [see here](leetcode/Java/easy/adjacentProduct)
+- shapeArea ☞ [see here](leetcode/Java/easy/shapeArea)

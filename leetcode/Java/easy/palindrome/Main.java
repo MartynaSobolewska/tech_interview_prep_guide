@@ -1,7 +1,5 @@
 package easy.palindrome;
 
-import java.util.List;
-
 public class Main {
     static boolean solution(String inputString) {
         int corrIndex = inputString.length();
