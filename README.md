@@ -52,3 +52,4 @@ LeetCode questions are grouped by data structure or by algorithm.
 - largest adjacent product ☞ [see here](leetcode/Java/easy/adjacentProduct)
 - shapeArea ☞ [see here](leetcode/Java/easy/shapeArea)
 - make array consecutive ☞ [see here](leetcode/Java/easy/consecutiveArray)
+- almost increasing sequence ☞ [see here](leetcode/Java/easy/almostIncreasingSequence)
