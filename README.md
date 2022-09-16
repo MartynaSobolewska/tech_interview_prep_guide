@@ -53,3 +53,4 @@ LeetCode questions are grouped by data structure or by algorithm.
 - shapeArea ☞ [see here](leetcode/Java/easy/shapeArea)
 - make array consecutive ☞ [see here](leetcode/Java/easy/consecutiveArray)
 - almost increasing sequence ☞ [see here](leetcode/Java/easy/almostIncreasingSequence)
+- matrix elements sum ☞ [see here](leetcode/Java/easy/matrixElementsSum)
