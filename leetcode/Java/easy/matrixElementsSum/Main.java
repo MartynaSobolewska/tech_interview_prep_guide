@@ -5,17 +5,11 @@ import java.util.Arrays;
 public class Main {
     static int solution(int[][] matrix) {
         int price = 0;
-        int[] hauntedFloors = new int[matrix[0].length];
-        Arrays.fill(hauntedFloors, matrix.length);
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                if (i < hauntedFloors[j]){
-                    System.out.println("matrix[" + i + "][" + j + "] = " + matrix[i][j]);
-                    if (matrix[i][j] == 0){
-                        hauntedFloors[j] = i;
-                    }
-                    price += matrix[i][j];
-                }
+        for (int column = 0; column < matrix[0].length; column++){
+            for (int row = 0; row < matrix.length; row++){
+                if(matrix[row][column] == 0)
+                    break;
+                price += matrix[row][column];
             }
         }
         return price;
