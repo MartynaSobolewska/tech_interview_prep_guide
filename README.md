@@ -55,3 +55,4 @@ LeetCode questions are grouped by data structure or by algorithm.
 - almost increasing sequence ☞ [see here](leetcode/Java/easy/almostIncreasingSequence)
 - matrix elements sum ☞ [see here](leetcode/Java/easy/matrixElementsSum)
 - all longest strings ☞ [see here](leetcode/Java/easy/allLongestStrings)
+- common characters count ☞ [see here](leetcode/Java/easy/allLongestStrings)
