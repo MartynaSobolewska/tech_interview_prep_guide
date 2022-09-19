@@ -57,3 +57,6 @@ LeetCode questions are grouped by data structure or by algorithm.
 - all longest strings ☞ [see here](leetcode/Java/easy/allLongestStrings)
 - common characters count ☞ [see here](leetcode/Java/easy/allLongestStrings)
 - lucky numbers ☞ [see here](leetcode/Java/easy/isLucky)
+#### medium
+- sort by height ☞ [see here](leetcode/Java/medium/sortByHeight)
+- reverse parenthesis ☞ [see here](leetcode/Java/medium/reverseInParenthesis)
