@@ -60,3 +60,5 @@ LeetCode questions are grouped by data structure or by algorithm.
 #### medium
 - sort by height ☞ [see here](leetcode/Java/medium/sortByHeight)
 - reverse parenthesis ☞ [see here](leetcode/Java/medium/reverseInParenthesis)
+- alterating sums ☞ [see here](leetcode/Java/medium/alternatingSums)
+- add border
