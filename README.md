@@ -12,7 +12,7 @@ LeetCode questions are grouped by data structure or by algorithm.
 ## language cheetsheets
 - [x] C++ ☞ [data structures](cheatsheets/C++/DATA_STRUCTS.md)
 - [x] C++ ☞ [classes](cheatsheets/C++/CLASSES.md)
-- [ ] Java ☞ [data structures]()
+- [x] Java ☞ [data structures](cheatsheets/Java/DATA_STRUCTS.md)
 
 ## Data structures
 - [ ] Arrays
