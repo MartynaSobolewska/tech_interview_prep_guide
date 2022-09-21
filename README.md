@@ -15,8 +15,6 @@ LeetCode questions are grouped by data structure or by algorithm.
 - [x] Java ☞ [data structures](cheatsheets/Java/DATA_STRUCTS.md)
 
 ## Data structures
-- [ ] Arrays
-- [ ] Lists 
 - [x] Hash maps & tables
   - description ☞ [see here](data_structs_and_algorithms/data_structs_implementations/hash_map/README.md)
 - [x] Trees
@@ -32,6 +30,7 @@ LeetCode questions are grouped by data structure or by algorithm.
 ## Algorithms
 - sorting algorithms:
   - [ ] Merge sort
+  - [x] Quick sort ☞ [see here](data_structs_and_algorithms/algorithm_focus/sorts/quick_sort)
 
 
 - tree/graph algorithms:
@@ -60,6 +59,7 @@ LeetCode questions are grouped by data structure or by algorithm.
 - lucky numbers ☞ [see here](leetcode/Java/easy/isLucky)
 - alterating sums ☞ [see here](leetcode/Java/easy/alternatingSums)
 - add border ☞ [see here](leetcode/Java/easy/addBorder)
+- are similar 
 
 #### medium
 - sort by height ☞ [see here](leetcode/Java/medium/sortByHeight)
