@@ -1,4 +1,4 @@
-package medium.alternatingSums;
+package easy.alternatingSums;
 
 import java.util.Arrays;
 

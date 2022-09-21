@@ -12,6 +12,7 @@ LeetCode questions are grouped by data structure or by algorithm.
 ## language cheetsheets
 - [x] C++ ☞ [data structures](cheatsheets/C++/DATA_STRUCTS.md)
 - [x] C++ ☞ [classes](cheatsheets/C++/CLASSES.md)
+- [ ] Java ☞ [data structures]()
 
 ## Data structures
 - [ ] Arrays
@@ -57,8 +58,9 @@ LeetCode questions are grouped by data structure or by algorithm.
 - all longest strings ☞ [see here](leetcode/Java/easy/allLongestStrings)
 - common characters count ☞ [see here](leetcode/Java/easy/allLongestStrings)
 - lucky numbers ☞ [see here](leetcode/Java/easy/isLucky)
+- alterating sums ☞ [see here](leetcode/Java/easy/alternatingSums)
+- add border ☞ [see here](leetcode/Java/easy/addBorder)
+
 #### medium
 - sort by height ☞ [see here](leetcode/Java/medium/sortByHeight)
 - reverse parenthesis ☞ [see here](leetcode/Java/medium/reverseInParenthesis)
-- alterating sums ☞ [see here](leetcode/Java/medium/alternatingSums)
-- add border
