@@ -199,6 +199,11 @@ for (String i : people.keySet()) {
 map.containsKey(4);
 map.containsValue("aaaa");
 ```
+
+### modify a value
+```java
+map.put(key, map.get(key) + 1);
+```
 ## Hash set
 A HashSet is a collection of items where every item is unique
 ```java
