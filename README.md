@@ -64,3 +64,5 @@ LeetCode questions are grouped by data structure or by algorithm.
 #### medium
 - sort by height ☞ [see here](leetcode/Java/medium/sortByHeight)
 - reverse parenthesis ☞ [see here](leetcode/Java/medium/reverseInParenthesis)
+- avoid obstacles ☞ [see here](leetcode/Java/medium/avoidObstacles)
+- palindrome rearranging ☞ [see here](leetcode/Java/medium/palindromeRearranging)
