@@ -36,6 +36,7 @@ LeetCode questions are grouped by data structure or by algorithm.
 - tree/graph algorithms:
   - [x] Breadth-first search ☞ [see here](data_structs_and_algorithms/algorithm_focus/trees/breadth_first_search)
   - [x] Depth-first search ☞ [see here](data_structs_and_algorithms/algorithm_focus/trees/depth_first_search)
+  - [x] Has path ☞ [see here](data_structs_and_algorithms/algorithm_focus/trees/has_path)
   - [ ] Binary Search
   - [ ] Dijkstra algorithm
 
